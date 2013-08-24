@@ -1,0 +1,67 @@
+# depslib dependency file v1.0
+1376943283 source:/home/yann/Code/D2o/main.cpp
+	<iostream>
+	"D2OReader.h"
+
+1376749872 /home/yann/Code/D2o/MessageReader.h
+	<fstream>
+	<cstring>
+
+1376749871 /home/yann/Code/D2o/MessageWriter.h
+	<cstring>
+
+1376749870 source:/home/yann/Code/D2o/MessageReader.cpp
+	"MessageReader.h"
+
+1376749869 source:/home/yann/Code/D2o/MessageWriter.cpp
+	"MessageWriter.h"
+
+1377013810 /home/yann/Code/D2o/D2OReader.h
+	<iostream>
+	<fstream>
+	<map>
+	"Manager/DatacenterManager.h"
+	"IO/MessageReader.h"
+	"IO/MessageWriter.h"
+	"D2OFieldType.h"
+
+1376999548 source:/home/yann/Code/D2o/D2OReader.cpp
+	"D2OReader.h"
+
+1376749872 /home/yann/Code/D2o/IO/MessageReader.h
+	<fstream>
+	<cstring>
+
+1376749871 /home/yann/Code/D2o/IO/MessageWriter.h
+	<cstring>
+
+1376749870 source:/home/yann/Code/D2o/IO/MessageReader.cpp
+	"MessageReader.h"
+
+1376749869 source:/home/yann/Code/D2o/IO/MessageWriter.cpp
+	"MessageWriter.h"
+
+1376949086 source:/home/yann/Code/D2o/Datacenter/Breed/Breed.cpp
+	"Breed.h"
+
+1377013242 /home/yann/Code/D2o/Datacenter/Breed/Breed.h
+	<vector>
+	<string>
+	"../IDataCenter.h"
+
+1376947250 /home/yann/Code/D2o/Datacenter/IDataCenter.h
+
+1376948638 source:/home/yann/Code/D2o/Manager/DatacenterManager.cpp
+	"DatacenterManager.h"
+
+1376948655 /home/yann/Code/D2o/Manager/DatacenterManager.h
+	<map>
+	<string>
+	"../Datacenter/IDataCenter.h"
+	"../Datacenter/list.h"
+
+1376945181 /home/yann/Code/D2o/Datacenter/list.h
+	"Breed/Breed.h"
+
+1377013789 /home/yann/Code/D2o/D2OFieldType.h
+
